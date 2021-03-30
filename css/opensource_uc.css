@@ -1,0 +1,11 @@
+.logo {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: larger;
+  font-family: inherit;
+  color: white;
+}
+
+.logo .logo-dot{
+  color: #007bff;
+}
