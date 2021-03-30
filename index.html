@@ -6,6 +6,9 @@
 		<meta name="author" content="Kodinger">
 		<meta name="keyword" content="Kodinger, template, html5, css3, bootstrap4">
 		<meta name="description" content="HTML5 and CSS3 Template Based on Bootstrap 4">
+		<link rel="shortcut icon" href="/favicon.png">
+		<link rel="manifest" href="./manifest.json">
+		<meta name="theme-color" content="#2A3443">
 		<title>Open Source UC</title>
 		<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -347,7 +350,15 @@
 				</p>
 			</div>
 		</footer>
-
+		<script>
+			// Check that service workers are supported
+			if ('serviceWorker' in navigator) {
+				// Use the window load event to keep the page load performant
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/service-worker.js');
+				});
+			}
+		</script>
 		<script src="js/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="js/jquery.easeScroll.js"></script>
