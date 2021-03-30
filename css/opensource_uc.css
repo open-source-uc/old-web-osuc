@@ -9,3 +9,13 @@
 .logo .logo-dot{
   color: #007bff;
 }
+
+.social-media {
+  background-color: rgba(89, 100, 110, 0.247);
+  border-radius: .25rem;
+  padding: .5rem .25rem;
+}
+
+.projects-picture.unlock{
+  width: 100%;
+}

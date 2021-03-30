@@ -38,10 +38,10 @@
 			        <a class="nav-link smooth-link" href="#features">Objetivos</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#blog">Quienes Somos</a>
+			        <a class="nav-link smooth-link" href="#whoim">Quienes Somos</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link smooth-link" href="#project">Proyectos</a>
+			        <a class="nav-link smooth-link" href="#projects">Proyectos</a>
 			      </li>
 						<li class="nav-item">
 			        <a class="nav-link smooth-link" href="#team">Equipo</a>
@@ -58,7 +58,7 @@
 				<p class="lead">El proyecto open source de la UCé</p>
 				<h1>Somos <span class="bold">Open Source UC.</h1>
 				<div class="cta">
-					<a href="#features" class="btn btn-primary smooth-link">Ver proyectos</a>
+					<a href="#projects" class="btn btn-primary smooth-link">Ver proyectos</a>
 					<div class="link">						
 						<a href="#">Bajo licencia MIT </a>
 					</div>
@@ -118,9 +118,38 @@
 			</div>
 		</section>
 
-		<section class="padding bg-grey" id="blog">
+		<section class="bg-overlay padding" id="whoim" data-bg="img/projects.jpeg">
 			<div class="container">
-				<h2 class="section-title">We Blog Sometimes</h2>
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6">
+						<figure class="projects-picture unlock">
+							<img src="img/pizarra.JPG" alt="pizzara de clases">
+						</figure>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="projects-details">
+							<h2 class="projects-title">Quienes Somos</h2>
+							<p id="auto-description" class="projects-description"></p>
+							<div class="projects-cta">
+								<p align="center" class="social-media">
+									<a href="https://twitter.com/$(user)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="gxfaundez" height="30" width="40" /></a>
+									<a href="https://linkedin.com/in/$(user)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="gnfaundez" height="30" width="40" /></a>
+									<a href="https://stackoverflow.com/users/$(number)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="137356" height="30" width="40" /></a>
+									<a href="https://kaggle.com/$(user)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="fardust" height="30" width="40" /></a>
+									<a href="https://fb.com/$(user)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="gabriel.faundez.31" height="30" width="40" /></a>
+									<a href="https://instagram.com/$(user)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="gabrielxfs" height="30" width="40" /></a>
+									<a href="https://medium.com/$(user)" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@gabriel.faundez" height="30" width="40" /></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding bg-grey" id="projects">
+			<div class="container">
+				<h2 class="section-title">Proyectos</h2>
 				<p class="section-lead text-muted">We wrote some articles about whatever was on our heads and most people liked it.</p>
 				<div class="section-body">
 					<div class="row col-spacing">
@@ -220,37 +249,6 @@
 			</div>
 		</section>
 
-		<section class="bg-overlay padding" id="project" data-bg="img/projects.jpeg">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6">
-						<figure class="projects-picture">
-							<img src="img/youzhang.png" alt="Youzhang">
-						</figure>
-					</div>
-					<div class="col-12 col-md-6">
-						<div class="projects-details">
-							<div class="projects-badge">
-								Featured
-							</div>
-							<h2 class="projects-title">Youzhang - Ionic 3 Catalogue Template</h2>
-							<p class="projects-description">
-								Youzhang is an iconic template catalog 3. This ionic template uses version 3 and uses the latest feature of ionic v3 that is Lazy Loading. With Ionic version 3 and Lazy Loading you don’t have to define all the components in the app.module.ts file and your hybrid app will get more native and it will make the app performance better.
-							</p>
-							<div class="projects-cta">
-								<a href="https://codecanyon.net/item/youzhang-ionic-3-catalogue-template/20466954?ref=frameborder" class="btn btn-primary" target="_blank">
-									Buy Now
-								</a>
-								<a href="https://codecanyon.net/user/frameborder?ref=frameborder" class="btn btn-link" target="_blank">
-									More Products
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<section class="bg-overlay padding" id="team" data-bg="img/projects.jpeg">
 			<div class="container">
 				<div class="row align-items-center">
@@ -340,10 +338,10 @@
 		<footer>
 			<div class="container">
 				<figure>
-					<img src="img/logo-light.png" alt="Logo">
+					<div class="logo">Open Source UC<span class="logo-dot">.</span></div>
 				</figure>
 				<p>
-					Copyright &copy; 2017 Your Company
+					Copyright &copy; 2021 Open Source UC
 				</p>
 				<p>
 					Made with <i class="ion-heart"></i> By Kodinger
@@ -364,5 +362,6 @@
 		<script src="js/jquery.easeScroll.js"></script>
 		<script src="sweetalert/dist/sweetalert.min.js"></script>
 		<script src="js/stisla.js"></script>
+		<script src="js/opensource_uc.js"></script>
 	</body>
 </html>

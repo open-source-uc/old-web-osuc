@@ -11,11 +11,17 @@
  limitations under the License.
  */
 
-// Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = 'precache-v1';
+
+actualDate = new Date()
+filterDate = new Date(actualDate.getFullYear(), actualDate.getMonth(), actualDate.getDay()).getTime()
+
+
+const PRECACHE = `precache-${filterDate}`;
 const RUNTIME = 'runtime';
+
+console.log(PRECACHE)
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -23,7 +29,8 @@ const PRECACHE_URLS = [
   './', // Alias for index.html
   './css/stisla.css',
   './css/opensource_uc.css',
-  './js/stisla.js'
+  './js/stisla.js',
+  './js/opensource_uc.js'
 ];
 
 // The install handler takes care of precaching the resources we always need.
