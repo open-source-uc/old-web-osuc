@@ -16,10 +16,10 @@ $(() => {
         localStorage.setItem("orgAutodescription", data['description']);
         localStorage.setItem("lastGithubFetch", new Date().getTime());
         updateDescription();
-        console.log("fetch new description");
+        console.debug("fetch new description");
       })
   } else {
     updateDescription();
-    console.log("Using local description");
+    console.debug("Using local description");
   }
 })
