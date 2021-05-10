@@ -24,3 +24,11 @@
 	margin-top: 40px;
 	background-color: aliceblue;
 }
+
+.map {
+	max-width: 100%;
+}
+
+.smooth-btn {
+	border-radius: 30px;
+}
