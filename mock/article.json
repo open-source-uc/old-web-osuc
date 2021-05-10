@@ -1,7 +1,7 @@
 {
 	"title": "Página web",
 	"picture": "img/news/img01.jpg",
-	"content": "<p>En desarrollo, aun no se como añadir y linkear un nuevo proyecto.</p>",
+	"content": "<p>En desarrollo, aun no se como añadir y linkear un nuevo proyecto a otra sección de estas, por lo que todas contendrán lo mismo (este texto), que es cargado desde mock/article.json </p>",
 	"date": "May 10, 2021",
 	"author": "OSUC Team",
 	"category": "Web"
