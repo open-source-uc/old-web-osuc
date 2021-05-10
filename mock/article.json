@@ -6,3 +6,22 @@
 	"author": "John Doe",
 	"category": "Nature"
 }
+
+{
+	"title": "Página web",
+	"picture": "img/news/img01.jpg",
+	"content": "<p>En desarrollo, aun no se como añadir y linkear un nuevo proyecto.</p>",
+	"date": "May 10, 2021",
+	"author": "OSUC Team",
+	"category": "Web"
+}
+
+
+{
+	"title": "Proyecto 2",
+	"picture": "img/news/img01.jpg",
+	"content": "<p>En desarrollo.</p>",
+	"date": "May 10, 2021",
+	"author": "OSUC Team",
+	"category": "Web"
+}
