@@ -48,13 +48,13 @@ $(function() {
 		});
 	});
 
-	function filterById(jsonObject, id) {return jsonObject.filter(function(jsonObject) {return (jsonObject['id'] == id);})[0];}
-
 	$("[data-toggle=read]").click(function() {
 		let $this = $(this),
 				$id = $this.attr("id");
-		
-		var $project_id = $(this).attr("data-id") ; 
+
+		$("body").css({
+			overflow: "hidden"
+		});
 
 		let $element = '<div class="article-read">';
 				$element += '<div class="article-read-inner">';
@@ -93,37 +93,21 @@ $(function() {
 				let reg = /{([a-zA-Z0-9]+)}/g,
 						res = [],
 						element = $element;
-
-				console.debug($project_id);	
-				var selectedObject = filterById(data.projects, $project_id);
-				
-				console.debug(data.projects);	
-				console.debug(data.projects[$project_id-1]);	
-				console.debug(selectedObject);	
-
-				if(selectedObject === undefined) {
-					console.debug("selectedObject is undefined, can't find a matching id in article.json");		
-					return false;							
-				} else {
-					$("body").css({
-						overflow: "hidden"
-					});					
-					while(match = reg.exec($element)) {
-						element = element.replace('{' + match[1] + '}', selectedObject[match[1]]);
-					}
-
-					$("body").prepend(element);
-					$(".article-read").fadeIn();
-					$(document).on("click", ".article-back .btn", function() {
-						$(".article-read").fadeOut(function() {
-							$(".article-read").remove();
-							$("body").css({
-								overflow: 'auto'
-							});
-						});
-						return false;
-					});
+				while(match = reg.exec($element)) {
+					element = element.replace('{' + match[1] + '}', data[match[1]]);
 				}
+
+				$("body").prepend(element);
+				$(".article-read").fadeIn();
+				$(document).on("click", ".article-back .btn", function() {
+					$(".article-read").fadeOut(function() {
+						$(".article-read").remove();
+						$("body").css({
+							overflow: 'auto'
+						});
+					});
+					return false;
+				});
 			}
 		});
 
