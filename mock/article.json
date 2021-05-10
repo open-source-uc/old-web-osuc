@@ -1,8 +1,23 @@
 {
-	"title": "Página web",
-	"picture": "img/news/img01.jpg",
-	"content": "<p>En desarrollo, aun no se como añadir y linkear un nuevo proyecto a otra sección de estas, por lo que todas contendrán lo mismo (este texto), que es cargado desde mock/article.json </p>",
-	"date": "May 10, 2021",
-	"author": "OSUC Team",
-	"category": "Web"
+	"projects": [
+		{	
+			"id": 1,
+			"title": "Página web",
+			"picture": "img/news/img01.jpg",
+			"content": "<p>En desarrollo, aun no se como añadir y linkear un nuevo proyecto a otra sección de estas, por lo que todas contendrán lo mismo (este texto), que es cargado desde mock/article.json </p>",
+			"date": "May 10, 2021",
+			"author": "OSUC Team",
+			"category": "Web"
+		},
+		{	
+			"id": 2,
+			"title": "Improving JS skills",
+			"picture": "img/news/img01.jpg",
+			"content": "<p>Hubo que modificar el JS y Json para que esto se mostrara</p>",
+			"date": "May 10, 2021",
+			"author": "OSUC Team",
+			"category": "Web"
+		}		
+
+	]
 }
