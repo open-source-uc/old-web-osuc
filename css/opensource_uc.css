@@ -19,3 +19,17 @@
 .projects-picture.unlock{
   width: 100%;
 }
+
+.projects-details .projects-cta {
+	margin-top: 40px;
+	background-color: aliceblue;
+}
+
+.map {
+	max-width: 100%;
+}
+
+
+.smooth-btn {
+	border-radius: 30px;
+}
