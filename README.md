@@ -3,7 +3,7 @@
 ## Development
 
 ## Workflow
-El workflow es PR a development -> Revisar preview en el comentario -> Asignar reviewers (gabo o yo, por el momento) -> Aprobación -> Merge a development
+El workflow es PR a development -> Revisar preview que hacen los bots en los comentarios de la PR -> Asignar reviewers (gabo o yo, por el momento) -> Aprobación -> Merge a development
 
 ## Preview development branch:
 https://staging.osuc.dev/
