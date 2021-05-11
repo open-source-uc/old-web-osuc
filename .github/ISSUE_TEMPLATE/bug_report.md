@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Ayudanos a mejorar.
+name: Reporte de Bug
+about: Ayúdanos a mejorar.
 title: ''
 labels: bug
 assignees: ''
@@ -24,7 +24,7 @@ haz  click en `Ctrl + Shift + C` e introduce el contenido de la pestaña `consol
 Fetch finished loading: GET "<URL>".
 ```
 
-**Expected behavior**
+**Comportamiento esperado**
 Una pequeña descripción  de lo que esperarías que pasara. Ej: La web no se demorara en cargar 2 minutos.
 
 **Screenshots**
