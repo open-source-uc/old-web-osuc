@@ -32,3 +32,27 @@
 .smooth-btn {
 	border-radius: 30px;
 }
+
+.github-profile {
+  border-radius: 45px;
+  max-width: 90px;
+  display: block;
+  margin-top: 2rem;
+  padding-bottom: .25rem;
+}
+
+.center-profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.profile-inline {
+  display: inline-block;
+}
+
+.profile-inline > figcaption{
+  text-align: center;
+  color: white;
+}
