@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#2A3443",
-  "description": "Pagina de Open Source UC",
+  "description": "Open Source UC es una comunidad de estudiantes, profesores y alumni desarrollando proyectos de código abierto desde la Universidad Católica de Chile.",
   "theme_color": "#2A3443",
   "icons": [
     {
