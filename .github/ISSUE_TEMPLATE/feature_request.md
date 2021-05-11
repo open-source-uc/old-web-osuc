@@ -16,5 +16,5 @@ Una pequeña y concisa descripción de que te gustaría que pasara
 **Describe posibles soluciones que consideraste**
 Una pequeña y concisa descripción de cualquier solución que te imaginaras.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Contexto adicional**
+Añade aquí cualquier otro contexto o screenshot acerca del feature request si es necesario.
