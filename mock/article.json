@@ -17,6 +17,51 @@
         "date": "May 10, 2021",
         "author": "OSUC Team",
         "category": "Web"
+    },
+    {	
+        "id": 3,
+        "title": "Awesome",
+        "picture": "img/news/img02.jpg",
+        "content": "<p>Awesome</p>",
+        "date": "May 10, 2021",
+        "author": "OSUC Team",
+        "category": "Web"
+    },
+    {	
+        "id": 4,
+        "title": "UC",
+        "picture": "img/news/img02.jpg",
+        "content": "<p>UC</p>",
+        "date": "May 10, 2021",
+        "author": "OSUC Team",
+        "category": "Web"
+    },
+    {	
+        "id": 5,
+        "title": "Genial",
+        "picture": "img/news/img02.jpg",
+        "content": "<p>maravilloso</p>",
+        "date": "May 10, 2021",
+        "author": "OSUC Team",
+        "category": "Web"
+    },
+    {	
+        "id": 6,
+        "title": "Genial",
+        "picture": "img/news/img02.jpg",
+        "content": "<p>maravilloso</p>",
+        "date": "May 10, 2021",
+        "author": "OSUC Team",
+        "category": "Web"
+    },
+    {	
+        "id": 7,
+        "title": "Genial",
+        "picture": "img/news/img02.jpg",
+        "content": "<p>maravilloso</p>",
+        "date": "May 10, 2021",
+        "author": "OSUC Team",
+        "category": "Web"                                        
     }		
 
 ]
