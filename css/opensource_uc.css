@@ -62,3 +62,18 @@
   flex-wrap: wrap;
 }
 
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+  height: auto;
+  /* width: auto;
+  max-width: 150px;  
+  max-height: 100px;  
+  */
+}
