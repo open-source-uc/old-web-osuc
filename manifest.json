@@ -1,0 +1,16 @@
+{
+  "name": "Open Source UC",
+  "short_name": "OSUC",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2A3443",
+  "description": "Open Source UC es una comunidad de estudiantes, profesores y alumni desarrollando proyectos de código abierto desde la Universidad Católica de Chile.",
+  "theme_color": "#2A3443",
+  "icons": [
+    {
+      "src": "./img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+.logo {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: larger;
+  font-family: inherit;
+  color: white;
+}
+
+.logo .logo-dot{
+  color: #007bff;
+}
+
+.social-media {
+  background-color: rgba(89, 100, 110, 0.247);
+  border-radius: .25rem;
+  padding: .5rem .25rem;
+}
+
+.projects-picture.unlock{
+  width: 100%;
+}
+
+.projects-details .projects-cta {
+	margin-top: 40px;
+	background-color: aliceblue;
+}
+
+.map {
+	max-width: 100%;
+}
+
+.smooth-btn {
+	border-radius: 30px;
+}
+
+.github-profile {
+  border-radius: 45px;
+  max-width: 90px;
+  display: block;
+  margin-top: 2rem;
+  padding-bottom: .25rem;
+}
+
+.center-profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.profile-inline {
+  display: inline-block;
+}
+
+.profile-inline > figcaption{
+  text-align: center;
+  color: white;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
