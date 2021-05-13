@@ -56,9 +56,9 @@
     },
     {	
         "id": 7,
-        "title": "Genial",
-        "picture": "img/news/img02.jpg",
-        "content": "<p>maravilloso</p>",
+        "title": "Sincding",
+        "picture": "https://raw.githubusercontent.com/open-source-uc/sincding/assets/demo.gif",
+        "content": "<p>Descarga tus archivos de siding</p>",
         "date": "May 10, 2021",
         "author": "OSUC Team",
         "category": "Web"                                        
