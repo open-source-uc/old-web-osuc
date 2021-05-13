@@ -8,15 +8,17 @@ const path = require("path");
 module.exports = {
   entry: "./src/js/app.js",
   mode: "production",
+  devtool: "source-map",
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: "app.[chunkhash].bundle.js",
+    clean: true,
   },
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "src/index.html",
+      template: "dist/index.html",
       hash: true,
     }),
     new CopyPlugin({

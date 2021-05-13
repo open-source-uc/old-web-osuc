@@ -1,11 +1,13 @@
 {
   "scripts": {
-    "build": "webpack"
+    "build": "gulp build && npx webpack"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.2.4",
     "css-minimizer-webpack-plugin": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-html-replace": "^1.6.2",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "style-loader": "^2.0.0",
