@@ -11,9 +11,6 @@
  limitations under the License.
  */
 
-// Change to v2, etc. when you update any of the local resources, which will
-// in turn trigger the install event again.
-
 actualDate = new Date()
 filterDate = new Date(actualDate.getFullYear(), actualDate.getMonth(), actualDate.getDay()).getTime()
 

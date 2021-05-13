@@ -3,6 +3,7 @@
 ![Vercel](https://vercelbadge.vercel.app/api/open-source-uc/web)
 
 This is the website for Open Source UC.
+
 - **Production branch** (`main`): [osuc.dev](https://osuc.dev)
 - **Staging branch** (`development`): [staging.osuc.dev](https://staging.osuc.dev/)
 
