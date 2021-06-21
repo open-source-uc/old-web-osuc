@@ -78,7 +78,6 @@
 }
 
 section .section-body {
-  /* modificar */
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -91,7 +90,6 @@ section .section-body {
 
 
 article .card-text {
-  /* height: 14vh; */
   overflow: auto;
 }
 
@@ -113,8 +111,4 @@ article.card img{
   animation-name: zoomIn;
   animation-duration: 1s;  
   max-height: 125px;
-  /* width: auto;
-  max-width: 150px;  
-  max-height: 100px;  
-  */
 }
