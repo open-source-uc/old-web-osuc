@@ -415,9 +415,9 @@ section.callout h3 {
 }
 
 .list-item .icon {
-	flex: 0 0 65px;
-	-webkit-flex: 0 0 65px;
-	font-size: 45px;
+	flex: 0 0 75px;
+	-webkit-flex: 0 0 75px;
+	font-size: 60px;
 	line-height: 0;
 	color: #ccc;
 }
