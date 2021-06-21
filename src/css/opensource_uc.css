@@ -10,8 +10,12 @@
   color: #007bff;
 }
 
+.desc > p:nth-child(2) {
+  font-size: 17px;
+}
+
 .social-media {
-  background-color: rgba(89, 100, 110, 0.247);
+  background-color: rgb(255, 255, 255);
   border-radius: .25rem;
   padding: .5rem .25rem;
 }
@@ -70,7 +74,7 @@
 
 
 article .card-text {
-  height: 20vh;
+  height: 14vh;
   overflow: auto;
 }
 
