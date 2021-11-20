@@ -1,25 +1,26 @@
-const DAY = 8.64e+7
+// DISABLED TEMPORARILY DUE TO TRANSLATION ISSUES
+// const DAY = 8.64e+7
 
-updateDescription = () => {
-  console.log("here")
-  document.getElementById("auto-description").innerHTML = localStorage.getItem("orgAutodescription");
-}
+// updateDescription = () => {
+//   console.log("here")
+//   document.getElementById("auto-description").innerHTML = localStorage.getItem("orgAutodescription");
+// }
 
-$(() => {
-  const time = parseInt(localStorage.getItem("lastGithubFetch"));
-  const description = localStorage.getItem("orgAutodescription");
-  const actualTime = new Date().getTime();
-  if (!description | !time | time+DAY < actualTime ) {
-    fetch('https://api.github.com/orgs/open-source-uc')
-      .then(response => response.json())
-      .then((data) => {
-        localStorage.setItem("orgAutodescription", data['description']);
-        localStorage.setItem("lastGithubFetch", new Date().getTime());
-        updateDescription();
-        console.debug("fetch new description");
-      })
-  } else {
-    updateDescription();
-    console.debug("Using local description");
-  }
-})
+// $(() => {
+//   const time = parseInt(localStorage.getItem("lastGithubFetch"));
+//   const description = localStorage.getItem("orgAutodescription");
+//   const actualTime = new Date().getTime();
+//   if (!description | !time | time+DAY < actualTime ) {
+//     fetch('https://api.github.com/orgs/open-source-uc')
+//       .then(response => response.json())
+//       .then((data) => {
+//         localStorage.setItem("orgAutodescription", data['description']);
+//         localStorage.setItem("lastGithubFetch", new Date().getTime());
+//         updateDescription();
+//         console.debug("fetch new description");
+//       })
+//   } else {
+//     updateDescription();
+//     console.debug("Using local description");
+//   }
+// })
