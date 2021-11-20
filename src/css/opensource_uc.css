@@ -1,5 +1,4 @@
 .logo {
-  text-transform: capitalize;
   font-weight: bold;
   font-size: larger;
   font-family: inherit;
@@ -10,8 +9,16 @@
   color: #007bff;
 }
 
+.min-icon {
+  padding-right: 20px;
+}
+
+.desc > p:nth-child(2) {
+  font-size: 17px;
+}
+
 .social-media {
-  background-color: rgba(89, 100, 110, 0.247);
+  background-color: rgb(255, 255, 255);
   border-radius: .25rem;
   padding: .5rem .25rem;
 }
@@ -20,9 +27,13 @@
   width: 100%;
 }
 
+.projects-picture {
+  width: 160px !important;
+}
+
 .projects-details .projects-cta {
 	margin-top: 40px;
-	background-color: black;
+  text-align: center;
 }
 
 .map {
@@ -62,6 +73,15 @@
   flex-wrap: wrap;
 }
 
+.card {
+  height: 100%;
+}
+
+section .section-body {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .card .zoom-in {
   max-height: 0;
   transition: max-height 0.5s ease-out;
@@ -70,7 +90,6 @@
 
 
 article .card-text {
-  height: 20vh;
   overflow: auto;
 }
 
@@ -92,8 +111,4 @@ article.card img{
   animation-name: zoomIn;
   animation-duration: 1s;  
   max-height: 125px;
-  /* width: auto;
-  max-width: 150px;  
-  max-height: 100px;  
-  */
 }
