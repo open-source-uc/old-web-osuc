@@ -724,6 +724,9 @@ footer i {
 }
 
 @media screen and (max-width: 768px) {
+	p.lead{
+		margin-top: 100px;
+	}
 	.hero .text {
 		left: 20px;
 		right: 20px;
@@ -741,6 +744,11 @@ footer i {
 	}
 	.navbar.main-navbar .form-inline {
 		margin-left: 0;
+	}
+	.navbar-expand-lg{
+		background-color: #040404;
+		z-index: 999999 !important;
+		
 	}
 }
 
