@@ -28,6 +28,7 @@ module.exports = {
         { from: "src/favicon.png", to: "favicon.png" },
         { from: "src/manifest.json", to: "manifest.json" },
         { from: "src/service-worker.js", to: "service-worker.js" },
+        { from: "src/_redirects", to: "." }
       ],
     }),
   ],
